@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://usa365n.blogspot.com/` + encodeURI(path as string)
+					`http://creativenazim.42web.io` + encodeURI(path as string)
 				}`,
 			},
 		};
